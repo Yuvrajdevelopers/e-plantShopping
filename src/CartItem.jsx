@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { updateQuantity, removeItem } from "../redux/CartSlice";
+import { updateQuantity, removeItem } from "./CartSlice";
 
 function CartItem({ onContinueShopping }) {
 

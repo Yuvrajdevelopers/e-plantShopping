@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addItem } from "../redux/CartSlice";
+import { addItem } from "./CartSlice";
 
 const plants = [
   { name: "Aloe Vera", cost: "$10", image: "plant1.png", category: "Medicinal" },
